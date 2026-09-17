@@ -51,3 +51,12 @@ CREATE TABLE Locations (
     zone NVARCHAR(100) NOT NULL
 );
 
+
+
+
+
+
+--EVOLUCIÓN DEL ESQUEMA
+
+ALTER TABLE Orders
+ADD comentarios NVARCHAR(255);
